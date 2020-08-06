@@ -1,0 +1,24 @@
+{
+  "name": "adopt-me",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier \"src/**/*.{js,html}\" --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuruVII/learning-react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GuruVII/learning-react/issues"
+  },
+  "homepage": "https://github.com/GuruVII/learning-react#readme",
+  "devDependencies": {
+    "prettier": "^2.0.5"
+  }
+}
