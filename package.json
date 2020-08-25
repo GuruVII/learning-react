@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
     "test": "echo \"Error: no test specified\" && exit 1",
     "format": "prettier \"src/**/*.{js,html}\" --write"
   },
@@ -12,13 +13,15 @@
     "url": "git+https://github.com/GuruVII/learning-react.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Guru VII",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/GuruVII/learning-react/issues"
   },
   "homepage": "https://github.com/GuruVII/learning-react#readme",
   "devDependencies": {
+    "eslint": "^7.7.0",
+    "eslint-config-prettier": "^6.11.0",
     "prettier": "^2.0.5"
   }
 }
